@@ -1,34 +1,50 @@
-<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
 <!DOCTYPE html>
-<!-- Оболочка документа, указываем язык содержимого -->
 <html lang="ru">
-<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
-
 <head>
-	<!-- Заголовок страницы в браузере -->
-	<title>ABCRAFTWORX</title>
-	<!-- Verbinden CSS -->
-	<link rel="stylesheet" href="css/style.css" />
-	<!-- Кодировка страницы -->
-	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-	<style>
-		body {
-			background: url:('img\Backgroung.jpg');
-			background-position: center;
-			background-size: cover;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABCRAFTWORX</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background: url('img/Background.jpg') no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin: 0; /* Добавлено для удаления отступов по умолчанию */
+        }
+
+        /* Стили для заголовков и абзацев */
+        .header {
+            font-size: 24px;
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0; /* Добавлен фон */
+        }
+
+        .header2 {
+            font-size: 18px;
+            text-align: center;
+            padding: 10px;
+            background-color: #f0f0f0; /* Добавлен фон */
+        }
+
+        .const {
+            font-size: 16px;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .mail {
+            color: blue;
+        }
+    </style>
 </head>
-<!-- Отображаемое тело страницы -->
-
 <body>
-	<div class="header">Welcome to ABCraftworx.com</div>
-	<div class="header2">We can solve whatever problem you have!</div>
-		
-	<br>
-	<p class="const">The site is under construction! All questions address to <span class="mail"><a
-				href="mailto: abcraftworx@gmail.com">abcrartworx@gmail.com</a></span>
-	</p>
+    <div class="header">Welcome to ABCraftworx.com</div>
+    <div class="header2">We can solve whatever problem you have!</div>
+    
+    <br>
+    
+    <p class="const">The site is under construction! All questions should be addressed to <span class="mail"><a href="mailto:abcraftworx@gmail.com">abcraftworx@gmail.com</a></span></p>
 </body>
-
 </html>
