@@ -75,27 +75,38 @@ h6 {
 }
 /*--------------------*/
 
-body {
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	background-color: white;
-	background-position: top;
-	align-content: flex-start;
-	background-image: url(../img/clearpills.jpg);
-	display: block;
+.header {
+	font-size: 30px;
+	color: white;
+	
+	text-align: center;
+	padding: 30px;
+	background-color: transparent;
 }
 
-.header {
-	text-align: center;
-	margin-top: 25px;
-	font-size: 400;
+.body {
+	
 }
+
+.const {
+	font-size: 16px;
+	text-align: center;
+	margin: 20px;
+}
+
+.mail {
+	color: blue;
+}
+
 .header2 {
 	text-align: center;
-	margin-top: 25px;
+	margin-top: 50%;
+	margin-bottom: 25px;
 	font-size: 400;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 20px rgb(255, 0, 200);
 }
+
 .top-logo {
 	margin-left: 40%;
 	margin-right: 40%;
@@ -118,5 +129,6 @@ body {
 	text-align: center;
 	white-space: nowrap;
 	display: block;
+	color: blanchedalmond;
 	margin: 10px 20%;
 }
