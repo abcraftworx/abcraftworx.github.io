@@ -76,32 +76,13 @@ h6 {
 /*--------------------*/
 
 .header {
-	font-size: 30px;		
+	font-size: 30px;
 	text-align: center;
-	padding: 30px;
+	padding: 20px;
 	background-color: transparent;
 	color: white;
 }
 
-.const {
-	font-size: 16px;
-	text-align: center;
-	margin: 20px;
-}
-
-.header2 {
-	text-align: center;
-	margin-top: 50%;
-	margin-bottom: 25px;
-	font-size: 400;
-	text-transform: uppercase;
-	text-shadow: 1px 1px 20px rgb(255, 0, 200);
-}
-
-.top-logo {
-	margin-left: 40%;
-	margin-right: 40%;
-}
 .example-image {
 	display: block;
 	text-align: center;
@@ -118,8 +99,8 @@ h6 {
 }
 .const {
 	text-align: center;
+	justify-content: center;
 	white-space: nowrap;
 	display: block;
-	color: blanchedalmond;
-	margin: 10px 20%;
+	color: white;
 }
